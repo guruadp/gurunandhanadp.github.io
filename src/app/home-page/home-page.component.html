@@ -1,13 +1,41 @@
-<div class="body">
-    <div class="text">
+<nav class="navbar">
+    <div class="max-width">
         <div class="logo"><a href="">Portfolio</a></div>
         <ul class="menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Photo Gallery</a></li>
-
-            <p>Hello world !!... My name is</p>
-            <p>Guru Nandhan A D P</p>
-        </ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Photo Gallery</a></li>
+            <li>
+                <a href="#">Contacts ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </li>
+        </ul>        
     </div>
-</div>
+</nav>
+    <!-- home section-->
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1"> Hello world!!... My name is</div>
+            <div class="text-2"> Guru Nandhan A D P</div>        
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <div class="max-width">
+        <div class="projects-content">
+            <div class="text-1">Projects</div>      
+            <img class="mySlides" src="../../assets/projects/1.jpeg">
+            <img class="mySlides" src="../../assets/projects/2.jpeg">
+            <img class="mySlides" src="../../assets/projects/3.jpeg">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+    </div>
+</section>
+    
